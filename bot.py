@@ -9,7 +9,7 @@ if bool(os.environ.get("WEBHOOK", False)):
 else:
     from config import Config
 
-
+import pyrogram
 from pyrogram import __version__, idle
 from pyromod import listen
 from pyrogram import Client as Kmac
